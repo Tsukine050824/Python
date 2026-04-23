@@ -1,12 +1,21 @@
-import matplotlib
+import matplotlib 
+# chức năng là hiển thị đồ họa, tạo biểu đồ và hoạt hình. 
 matplotlib.use('TkAgg')
+# TkAgg là một backend của Matplotlib cho phép hiển thị đồ họa trong các ứng dụng Tkinter.
 import matplotlib.pyplot as plt
+# pyplot là một module của Matplotlib cung cấp một giao diện giống như MATLAB để tạo biểu đồ và đồ họa.
 import matplotlib.animation as animation
+# animation là một module của Matplotlib cho phép tạo các hoạt hình bằng cách cập nhật các khung hình liên tục.
 import numpy as np
+# NumPy là một thư viện Python mạnh mẽ cho tính toán khoa học, cung cấp các cấu trúc dữ liệu và hàm toán học hiệu quả để làm việc với mảng và ma trận.
 import random
+# random là một module tích hợp của Python cung cấp các hàm để tạo số ngẫu nhiên và thực hiện các phép toán liên quan đến ngẫu nhiên.
 import tkinter as tk
+# Tkinter là một thư viện GUI tích hợp của Python, cho phép tạo các ứng dụng đồ họa với giao diện người dùng.
 from tkinter import ttk
+# ttk là một module của Tkinter cung cấp các widget có kiểu dáng hiện đại và cải tiến, như nút, hộp văn bản, và bảng.
 from collections import defaultdict
+# defaultdict là một lớp trong module collections của Python, cung cấp một từ điển mặc định cho phép tự động tạo giá trị mặc định khi truy cập vào các khóa chưa tồn tại.
 
 # ════════════════ FONT CONFIG (fix loi font tieng Viet) ════════════════
 FONT_SANS = 'DejaVu Sans'
